@@ -1,0 +1,50 @@
+.block {
+    width: 200px;
+    height: 200px;
+    border-width: 10px;
+    border-color: blanchedalmond;
+    border-style: solid;
+    font-size:48px;
+    font-style: italic;
+    text-align: center;
+    text-decoration:dotted
+}
+
+.block-red {
+    background-color: red; 
+    position: relative;
+    left: 45%;
+    opacity: 70%;
+    font-size: 64px;
+    margin: 20px;
+}
+
+.block-blue {
+    background-color: blue;
+    position: relative;
+}
+
+.block-green {
+    background-color: green;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.block-purple {
+    background-color: purple;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.block-pink {
+    background-color: pink;
+    position: fixed;
+    top:50px;
+    right: 50px:    
+}
+
+.valorant {
+
+}

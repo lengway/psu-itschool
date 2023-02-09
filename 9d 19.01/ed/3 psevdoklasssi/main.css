@@ -1,0 +1,57 @@
+.block {
+    width: 200px;
+    height: 200px;
+    font-size: 32px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    transition-duration: 1s, 2s,2s;
+    transition-delay: 200ms;
+    transition-property: background-color, transform, rotate;
+    transition-timing-function: ease;
+}
+.red {
+    background-color: red;
+    transform: translate(50px, 20px);
+}
+.red:hover {
+    background-color: darkred;
+    transform: translateX(200px);
+}
+.blue {
+    background-color: blue;
+    transform: scale(1.2, 1.5);
+    position: absolute;
+    left: 300px;
+}
+.blue:active {
+    background-color: lightblue;
+    transform: scale(4,2);
+}
+.green {
+    background-color: green;
+    rotate: 35deg;
+}
+.green:hover {
+    background-color: darkgreen;
+}
+.green:active {
+    background-color: lightgreen;
+    rotate: 90deg;
+}
+.orange {
+    background-color: orange;
+    rotate: -35deg;
+    transform-origin: right top;
+}
+.orange:hover {
+    background-color: darkorange;
+    rotate: -90deg;
+    transform: translate(50px, 50px) scale(2,1.5);
+}
+.pink{
+    background-color: pink;
+}
+.container:hover .block {
+
+}

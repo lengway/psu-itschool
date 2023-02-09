@@ -1,0 +1,35 @@
+.block {
+    width: 200px;
+    height: 200px;
+    float: left;
+    border-style: solid;
+    border-width: 8px;
+    border-color: bisque;
+    margin: 5px;
+    overflow-x: auto;
+    overflow-y: auto;
+    font-size: 70px;
+    overflow: scroll;
+}
+
+.block-red {
+    background-color: red;
+}
+
+.block-blue {
+    background-color: blue;
+}
+
+.block-green {
+    background-color: green;
+}
+
+.wrapper {
+    background-color: gray;
+    height: 300px;
+}
+
+.block-yellow {
+    background-color: yellow;
+    clear: both;
+}

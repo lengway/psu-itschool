@@ -1,0 +1,27 @@
+.block1 {
+    background-color: yellow;
+    transform: translate(50px,50px);
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+.block2 {
+    background-color: green;
+    transform: scale(3, 2);
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+.block3 {
+    background-color: blue;
+    transform: rotate(20deg);
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+.block4 {
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    position: relative; 
+}

@@ -1,0 +1,13 @@
+.block {
+    width: 33.3%;
+    height: 200px;
+    float: left;
+    border: 1px solid black;
+    font-size: 32px;
+    padding: 30px;
+    margin-right: 40px;
+}
+
+.block {
+    
+}

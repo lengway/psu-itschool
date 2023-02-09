@@ -1,0 +1,60 @@
+.block {
+    margin: 15px;
+    width: 150px;
+    height: 150px;
+    font-size: 24px;
+    color: white;
+    padding: 20px;
+}
+.wrapper {
+
+}
+.block-red1 {
+    height: 150px;
+    width: 120px;
+    background-color: red;
+}
+.block-purple {
+    background-color: purple;
+    position: fixed;
+    top: 120px;
+    left: 185px;
+}
+.block-red2 {
+    background-color: red;
+}
+.block-green1 {
+    background-color: rgb(109, 221, 109);
+    position: relative;
+    height: 150px;
+    width: 120px;
+}
+.block-blue {
+    background-color: blue;
+    position: absolute;
+    top: 670px;
+    left: 40px;
+}
+.block-green2 {
+    background-color: rgb(109, 221, 109);
+    position: relative;
+    height: 150px;
+    width: 150px;
+    top: -60px;
+    left: 80px;
+}
+.peyzazhi {
+    text-align: right;
+}
+.p1 {
+    float: right;
+}
+.p2 {
+    top: 10000px;
+}
+b {
+    font-size: 32px;
+}
+a {
+    font-size: 24px;
+}

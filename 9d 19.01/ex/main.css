@@ -1,0 +1,39 @@
+.block {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 100px;
+    left: 50%;
+    background-color: brown;
+    animation-name: govno;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes govno {
+    0% {
+        transform: scale(1, 1);
+    }
+    25% {
+        transform: scale(5, 1);
+    }
+    50% {
+        transform: scale(5, 5);
+    }
+    75% {
+        transform: scale(1, 5);
+    }
+    100% {
+        transform: scale(1, 1);
+    }
+}
+.round1 {
+    position: relative;
+    top: 200px;
+    left: 910px;
+}
+.round2 {
+    position: relative;
+    top: 200px;
+    left: 606px;
+    border-radius: ;
+}

@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@100&display=swap');
+
+.block {
+    height: 700px;
+    width: 1000px;
+    margin: 100px;
+    background-color: red;
+    background-image: url(./images/maxresdefault.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.text1 {
+    font-size: 128px;
+    color: green;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    text-align: center;
+    padding-top: 150px;
+}
